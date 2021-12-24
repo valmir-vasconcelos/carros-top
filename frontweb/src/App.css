@@ -1,0 +1,19 @@
+/* estilos globais da aplicação */
+
+/* importamos roboto 400 e 700 do Google Fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+/* O asterisco significa todos os elementos */
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: unset;
+}
